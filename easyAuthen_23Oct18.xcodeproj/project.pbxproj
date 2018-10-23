@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8771BE40217F0A33004A330A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771BE3F217F0A33004A330A /* SignUpViewController.swift */; };
 		87C0500C217EDF720022DE0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0500B217EDF720022DE0C /* AppDelegate.swift */; };
 		87C0500E217EDF720022DE0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0500D217EDF720022DE0C /* ViewController.swift */; };
 		87C05011217EDF720022DE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C0500F217EDF720022DE0C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8771BE3F217F0A33004A330A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		87C05008217EDF720022DE0C /* easyAuthen_23Oct18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyAuthen_23Oct18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C0500B217EDF720022DE0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87C0500D217EDF720022DE0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				87C0500B217EDF720022DE0C /* AppDelegate.swift */,
 				87C0500D217EDF720022DE0C /* ViewController.swift */,
+				8771BE3F217F0A33004A330A /* SignUpViewController.swift */,
 				87C0500F217EDF720022DE0C /* Main.storyboard */,
 				87C05012217EDF730022DE0C /* Assets.xcassets */,
 				87C05014217EDF730022DE0C /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8771BE40217F0A33004A330A /* SignUpViewController.swift in Sources */,
 				87C0500E217EDF720022DE0C /* ViewController.swift in Sources */,
 				87C0500C217EDF720022DE0C /* AppDelegate.swift in Sources */,
 			);
