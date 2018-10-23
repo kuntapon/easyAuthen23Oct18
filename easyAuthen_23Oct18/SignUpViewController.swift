@@ -10,6 +10,11 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+//    Explicit
+    var nameString: String = ""
+    var userString: String = ""
+    var passwordString: String = ""
+    
     
     @IBOutlet weak var txtName: UITextField!
     
@@ -18,7 +23,11 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var txtPassword: UITextField!
     
     @IBAction func btnCloudUpload(_ sender: Any) {
-    }
+        
+    
+    
+    
+    }   // cloudUpload Function
     
     
     
