@@ -12,6 +12,17 @@ class MyConstant {
     
     let titleHaveSpaceString: String = "Have Space"
     let messageHaveSpaceString: String = "Please Fill Every Blank"
+    let preUrlString: String = "https://www.androidthai.in.th/kan/addUserKun.php?isAdd=true&Name="
+    let columnUserString: String = "&User="
+    let columPasswordString: String = "&PSW="
+    
+    func findUrlAddUser(nameString: String, userString: String, passwordString: String) -> String {
+        let resultString: String = preUrlString + nameString + columnUserString + userString + columPasswordString + passwordString
+        
+        return resultString
+    }
+    
+    
     
     
     
