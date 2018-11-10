@@ -43,7 +43,7 @@ class SignUpViewController: UIViewController {
             
         }
         else {
-//            upload to Server
+            // upload to Server
             uploadToServer(nameString: myNameString, userString: myUserString, passwordString: myPasswordString)
             
         }
@@ -74,9 +74,20 @@ class SignUpViewController: UIViewController {
                     let resultString: String = canReadAbleData! as String
                     print("resultString ==> \(resultString)")
                     
+//                    Check Result
+                    if (Bool(resultString)!) {
+//                        Back Main
+                        DispatchQueue.main.async {
+                            self.backToMain()
+                        }
+                    }
+                    else {
+                        DispatchQueue.main.async {
+                            self.myAlert(titleString: "Cannot to Upload", messageString: "Please Try Again")
+                        }
+                    }
                     
                 }// if 2
-                
                 
             }//if 1
             
@@ -87,6 +98,10 @@ class SignUpViewController: UIViewController {
         
         
         
+    }// upload to server
+    
+    func backToMain() -> Void {
+        performSegue(withIdentifier: "BackToMain", sender: self)
     }
     
     

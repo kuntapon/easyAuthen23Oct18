@@ -127,7 +127,7 @@
                                     <navigationItem title="Sign Up" id="xmj-xy-rSx">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="Anr-vy-7S1">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="DuG-pd-JFm"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="BackToMain" id="DuG-pd-JFm"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" image="cloud" id="opf-ta-ACW">
